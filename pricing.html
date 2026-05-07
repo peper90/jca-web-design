@@ -17,7 +17,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     color: white;
     padding: 50px 30px;
     min-height: 100vh;
@@ -152,6 +152,44 @@ font-weight: 500;
     transform: translateY(-3px);
     background: rgba(255,255,255,0.18);
 }
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .package-box,
+    .hosting-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .back-home-btn,
+    .btn {
+        display: block;
+        width: 85%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        width: 95%;
+        padding: 20px;
+    }
+
 </style>
 </head>
 <body>
