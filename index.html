@@ -175,41 +175,64 @@ footer{
     }
 @media (max-width: 768px) {
 
+    body {
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    }
+
+    header {
+        padding: 60px 20px;
+    }
+
     h1 {
-        font-size: 36px;
-        text-align: center;
+        font-size: 38px;
     }
 
     p {
-        font-size: 16px;
-        padding: 0 15px;
-        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
     }
 
-    .package-box,
-    .hosting-box {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .back-home-btn,
     .btn {
         display: block;
-        width: 85%;
-        margin: 10px auto;
-        text-align: center;
+        width: 90%;
+        margin: 12px auto;
+        padding: 16px;
         font-size: 18px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
     }
 
     section {
         width: 95%;
-        padding: 20px;
+        padding: 25px 15px;
+        margin: 20px auto;
     }
+
+    .feature-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .feature-box img {
+        width: 80px;
+        height: auto;
+    }
+
+    footer img {
+        width: 90%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    a[href*="wa.me"] {
+        display: block;
+        width: 90%;
+        margin: 20px auto;
+        padding: 18px;
+        text-align: center;
+    }
+
+    
 
 </style>
 </head>
