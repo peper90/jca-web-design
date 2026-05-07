@@ -15,9 +15,9 @@
 
 body{
     background:url('city.jpg') no-repeat center center;
-    background-size: contain;
+    background-size:cover;
     background-attachment:scroll;
-background-color: #000;
+background-color: transparent;
     color:white;
 }
 
@@ -177,9 +177,10 @@ footer{
 @media (max-width: 768px) {
 
     body {
-        background-size: cover;
-        background-position: center;
-        background-attachment: scroll;
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+backgroun-color:#000;
     }
 
     header {
@@ -233,6 +234,36 @@ footer{
         text-align: center;
     }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    a[href*="wa.me"] {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    header {
+        padding: 40px 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
     
 
 </style>
