@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing | JC&A Web Design</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image: url('./city.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: white;
+    padding: 50px 30px;
+    min-height: 100vh;
+}
+
+.pricing-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.pricing-title h1{
+    font-size:52px;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.pricing-title p{
+    font-size:28px;
+    color:#111827;
+font-weight: 500;
+}
+
+.packages{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-bottom:60px;
+}
+
+.package-box{
+    background: rgba(255,255,255,0.10);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.18);
+    width: 320px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.20);
+    color: white;
+}
+
+.package-box img{
+    width:100%;
+    border-radius:15px;
+    margin:20px 0;
+}
+
+.package-box h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.package-box h3{
+    font-size:18px;
+    margin:10px 0 20px;
+    color:#555;
+}
+
+.package-box ul{
+    list-style:none;
+    text-align:left;
+    margin-top:20px;
+}
+
+.package-box ul li{
+    margin-bottom:12px;
+    font-size:16px;
+}
+
+.hosting-box{
+    background: rgba(255,255,255,0.10);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.20);
+    color: white;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.hosting-box h2{
+    text-align:center;
+    font-size:38px;
+    color:#0b1f4d;
+    margin-bottom:20px;
+}
+
+.hosting-box p{
+    text-align:center;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.hosting-price{
+    font-size:30px;
+    color:#0a4cff;
+    font-weight:bold;
+    margin-top:20px;
+}
+.back-home-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    clear: both;
+}
+
+.back-home-btn {
+    display: inline-block;
+    padding: 18px 45px;
+    font-size: 24px;
+    font-weight: 600;
+    color: 0f172a;
+    text-decoration: none;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.20);
+    transition: 0.3s;
+}
+
+.back-home-btn:hover {
+    transform: translateY(-3px);
+    background: rgba(255,255,255,0.18);
+}
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .package-box,
+    .hosting-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .back-home-btn,
+    .btn {
+        display: block;
+        width: 85%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        width: 95%;
+        padding: 20px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="pricing-title">
+    <h1>Our Website Packages</h1>
+    <p>Choose the perfect package for your business and take your online presence to the next level.</p>
+</div>
+
+<div class="packages">
+
+    <div class="package-box">
+    <h2>$450</h2>
+    <h3>BASIC PACKAGE</h3>
+    
+
+    <ul>
+        <li>Professional Website</li>
+        <li>Mobile Friendly Design</li>
+        <li>WhatsApp Button</li>
+        <li>Contact Form</li>
+        <li>Google Maps Integration</li>
+        <li>Basic Support</li>
+    </ul>
+</div>
+
+<div class="package-box">
+    <h2>$750</h2>
+    <h3>BUSINESS PACKAGE</h3>
+    <img src="business.jpg" alt="Business Package">
+
+    <ul>
+        <li>Everything in Basic</li>
+        <li>Google Business Profile Setup</li>
+        <li>SEO Basic Optimization</li>
+        <li>QR Code for Business</li>
+        <li>Premium Design</li>
+        <li>Priority Support</li>
+    </ul>
+</div>
+
+<div class="package-box">
+    <h2>$1200+</h2>
+    <h3>PREMIUM PACKAGE</h3>
+    <img src="premium.jpg" alt="Premium Package">
+
+    <ul>
+        <li>Everything in Business</li>
+        <li>Multi-Page Website</li>
+        <li>Advanced Forms</li>
+        <li>Booking System</li>
+        <li>Branding Assistance</li>
+        <li>Full Digital Setup</li>
+    </ul>
+</div>
+    
+
+
+
+<div class="hosting-box">
+    <h2>Hosting + Domain + Technical Maintenance</h2>
+
+    <p>
+        Hosting and domain are billed separately and are required
+        to keep your website live, secure and always online.
+    </p>
+
+    <p>
+        Includes:
+        Website Hosting • Domain Name (.com) • SSL Security Certificate •
+        Website Protection • Technical Support
+    </p>
+
+    <h3>Starting from $150 – $250 / year</h3>
+</div>
+<div class="back-home-container">
+    <a href="index.html" class="back-home-btn">
+        Back to Home
+    </a>
+</div>
+</body>
+</html>

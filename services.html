@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Services | JC&A Web Design</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+  
+background: url('perfecto.png') no-repeat center center;
+background-size: cover;
+background-attachment: scroll;
+background-color: #2f3542;
+}
+
+
+   
+
+header{
+    background: rgba(0,0,0,0.75);
+    padding:60px 20px;
+    text-align:center;
+}
+
+h1{
+   
+    font-size: 58px;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 0 4px 15px rgba(0,0,0,0.45);
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+
+}
+
+h2{
+  
+ 
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.35);
+}
+
+
+
+
+p{
+    font-size: 22px;
+font-weight: 500;
+color: #f8f8f8;
+letter-spacing: 0.5px;
+line-height: 1.7;
+text-shadow: 0 2px 8px rgba(0,0,0,0.35);
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+section{
+    padding:70px 10%;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    
+background: rgba(255,255,255,0.12);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+border: 1px solid rgba(255,255,255,0.2);
+padding: 30px;
+border-radius: 20px;
+text-align: center;
+box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+transition: all 0.4s ease;
+}
+
+.card:hover{
+transform: translateY(-10px) scale(1.03);
+box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+background: rgba(255,255,255,0.18);
+}
+
+
+.card h3{
+    
+font-size: 26px;
+font-weight: 700;
+color: #ffd700;
+margin-bottom: 15px;
+letter-spacing: 1px;
+text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+
+}
+.card p{
+font-size: 18px;
+color: #ffffff;
+font-weight: 500;
+line-height: 1.7;
+text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.btn{
+   
+    display: inline-block;
+    margin-top: 20px;
+    padding: 16px 38px;
+    background: rgba(255,255,255,0.18);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.28);
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    
+    transform: translateY(-4px);
+    background: rgba(255,255,255,0.30);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.30);
+}
+
+
+footer{
+    
+    background: rgba(255,255,255,0.12);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+    padding: 50px 20px;
+    text-align: center;
+    color: #ffffff;
+    border-top: 1px solid rgba(255,255,255,0.15);
+
+}footer h3{
+    
+    font-size: 34px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    text-shadow: 0 3px 12px rgba(0,0,0,0.35);
+
+}footer p{
+    
+    font-size: 20px;
+    color: #f5f5f5;
+    line-height: 1.8;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .service-box,
+    .feature-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        display: block;
+        width: 85%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        width: 95%;
+        padding: 20px;
+    }
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Our Services</h1>
+    <p>Professional Digital Solutions to Grow Your Business</p>
+
+    <a href="./index.html" class="btn">Back to Home</a>
+</header>
+
+<section>
+
+    <h2>What We Offer</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Website Design</h3>
+            <p>Modern, responsive, and professional websites designed to attract more customers.</p>
+        </div>
+
+        <div class="card">
+            <h3>Google Maps Profile</h3>
+            <p>We help your business appear on Google Maps and improve local visibility.</p>
+        </div>
+
+        <div class="card">
+            <h3>Google Business Profile</h3>
+            <p>Complete setup and optimization for stronger online presence.</p>
+        </div>
+
+        <div class="card">
+            <h3>Business Logos</h3>
+            <p>Professional branding and logo creation for your company image.</p>
+        </div>
+
+        <div class="card">
+            <h3>QR Code Creation</h3>
+            <p>Custom QR codes for business cards, trucks, signs, and marketing.</p>
+        </div>
+
+        <div class="card">
+            <h3>SEO Optimization</h3>
+            <p>Better Google visibility with mobile optimization and fast loading pages.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    
+   
+    <h3>JC&A Web Design</h3>
+
+    <p>Professional Digital Solutions</p>
+    <p>Website Design • Google Maps • Business Branding</p>
+
+    <p>San Jose, California</p>
+    <p>Phone: +1 530-413-3910</p>
+
+    <p>📷 Instagram: @jeper750</p>
+    <p>📘 Facebook: JC&A Web Design</p>
+
+    <p>Mon - Sat: 8:00 AM - 7:00 PM</p>
+</footer>
+
+</body>
+</html>
